@@ -10,8 +10,7 @@ Laboratorio de creación de herramientas para investigación científica, presen
 2. **Mapa:** ocho ámbitos (problematización, literatura, teoría, metodología, instrumentos, análisis, escritura e integridad).
 3. **Constructor:** propósito, destinatarios, entradas, pasos, criterios, límites, recursos y producto. Cinco salidas: prompt, skill, flujo de revisión, especificación de laboratorio y plan multiagente.
 4. **Banco de pruebas:** casos completos, con información faltante y contradictorios; salida obtenida, evidencia, evaluación humana y bitácora descargable.
-5. **Mis herramientas:** varios proyectos, duplicación, importación/exportación JSON y versiones con comparación de líneas.
-6. **Referencias:** accesos a Episteme Lab, LABIMET (portal) y LAB-VALIDEZ IA, además de documentación de plataformas.
+El menú contiene exclusivamente Inicio, Mapa de necesidades, Constructor y Banco de pruebas. La importación/exportación y las versiones se conservan dentro del constructor.
 
 ## Uso
 
@@ -27,7 +26,7 @@ Sin cuentas ni servidor de análisis. El estado se guarda en localStorage del na
 
 ## Publicación
 
-En GitHub: **Settings → Pages → Build and deployment → Source: GitHub Actions**. Ejecutar el flujo **Comprobar y publicar laboratorio** desde Actions si no se inició automáticamente. El flujo ejecuta comprobaciones y publica únicamente los cuatro archivos de aplicación. Requiere Pages habilitado y permisos de Actions del repositorio.
+En GitHub: **Settings → Pages → Build and deployment → Source: GitHub Actions**. Ejecutar el flujo **Comprobar y publicar laboratorio** desde Actions si no se inició automáticamente. El flujo ejecuta comprobaciones y publica los cuatro archivos de aplicación y la carpeta de recursos gráficos. Requiere Pages habilitado y permisos de Actions del repositorio.
 
 ## Comprobaciones
 
@@ -49,3 +48,11 @@ La verificación inicial automatizada cubre generación de las ocho plantillas y
 La interfaz y disponibilidad de los proveedores pueden cambiar. Un nombre de producto no implica patrocinio o certificación institucional del software.
 
 © Prof. Dr. Pablo José Guerrero. 2026. Todos los derechos reservados. No se concede una licencia de redistribución de materiales de terceros.
+
+## Autoría y cita
+
+Autoría intelectual, concepción, diseño didáctico y desarrollo: **Prof. Dr. Pablo José Guerrero PhD.** RED CTII.AI; Guerrero Consultores. UNIOR es el nombre del laboratorio y contexto del evento, no el titular de su autoría.
+
+Guerrero, P. J. (2026). *UNIOR INVESTIGA* (Versión 01) [Laboratorio interactivo para la creación de herramientas de investigación científica]. RED CTII.AI; Guerrero Consultores. https://pablojoseguerrero.github.io/UNIOR-INVESTIGA-v01/
+
+© Prof. Dr. Pablo José Guerrero. 2026. Todos los derechos reservados. La cita no concede autorización de reproducción, modificación o redistribución. El logo de RED CTII.AI fue proporcionado por el titular para esta aplicación.
